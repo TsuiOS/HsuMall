@@ -1,0 +1,40 @@
+//
+//  HsuMall-Prefix.pch
+//  HsuMall
+//
+//  Created by xuning on 16/9/21.
+//  Copyright © 2016年 xuning. All rights reserved.
+//
+
+#ifndef HsuMall_Prefix_pch
+#define HsuMall_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define XNColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+#define     DEFAULT_NAVBAR_COLOR             XNColor(231.0, 86.0, 20.0, 1.0)
+#define     DEFAULT_SEARCHBAR_COLOR          XNColor(239.0, 239.0, 244.0, 1.0)
+#define     DEFAULT_GREEN_COLOR              XNColor(2.0, 187.0, 0.0, 1.0f)
+#define     DEFAULT_BACKGROUND_COLOR         XNColor(224, 231, 234, 1)
+// 16进制转换RGB
+#define kUIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// 常用标准颜色
+#define kColorBlack kUIColorFromRGB(0x2A2A2A)
+#define kColorBlackDeep kUIColorFromRGB(0x000000)
+#define kColorBlackLight kUIColorFromRGB(0x686868)
+#define kColorGray kUIColorFromRGB(0xC9C9C9)
+#define kColorRed  kUIColorFromRGB(0xFF3939)
+#define kColorOrange kUIColorFromRGB(0xE65517)
+#define kColorGreen kUIColorFromRGB(0x00AA83)
+#define kColorWhite kUIColorFromRGB(0xFFFFFF)
+
+// 常用宽高
+#define DEFAULT_WIDTH               [UIScreen mainScreen].bounds.size.width
+#define DEFAULT_HEIGTH              [UIScreen mainScreen].bounds.size.height
+
+#endif /* HsuMall_Prefix_pch */

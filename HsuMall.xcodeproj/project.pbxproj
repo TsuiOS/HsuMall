@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		790EC0CC1D910CE000454C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EC0CB1D910CE000454C0E /* main.m */; };
 		790EC0CF1D910CE000454C0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EC0CE1D910CE000454C0E /* AppDelegate.m */; };
-		790EC0D21D910CE000454C0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EC0D11D910CE000454C0E /* ViewController.m */; };
-		790EC0D51D910CE000454C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D31D910CE000454C0E /* Main.storyboard */; };
 		790EC0D71D910CE000454C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D61D910CE000454C0E /* Assets.xcassets */; };
-		790EC0DA1D910CE000454C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D81D910CE000454C0E /* LaunchScreen.storyboard */; };
+		795C4C621D921A4F002ECD49 /* XNBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C611D921A4F002ECD49 /* XNBaseNavController.m */; };
+		795C4C651D921A6D002ECD49 /* XNMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C641D921A6D002ECD49 /* XNMainTabBarController.m */; };
+		795C4C681D921AF5002ECD49 /* XNCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C671D921AF5002ECD49 /* XNCategoryController.m */; };
+		795C4C6E1D921B23002ECD49 /* XNMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C6D1D921B23002ECD49 /* XNMineController.m */; };
+		795C4C841D921F92002ECD49 /* XNGoodsCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C811D921F92002ECD49 /* XNGoodsCarController.m */; };
+		795C4C871D921FC2002ECD49 /* XNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C861D921FC2002ECD49 /* XNHomeViewController.m */; };
+		795C4C8E1D9220BE002ECD49 /* XNCampaignController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C8D1D9220BE002ECD49 /* XNCampaignController.m */; };
 		C7739A5DBE16465FF5862158 /* libPods-HsuMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +24,25 @@
 		3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HsuMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790EC0C71D910CE000454C0E /* HsuMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HsuMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		790EC0CB1D910CE000454C0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		790EC0CD1D910CE000454C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		790EC0CE1D910CE000454C0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		790EC0D01D910CE000454C0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		790EC0D11D910CE000454C0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		790EC0D41D910CE000454C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790EC0CD1D910CE000454C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		790EC0CE1D910CE000454C0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		790EC0D61D910CE000454C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		790EC0D91D910CE000454C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790EC0DB1D910CE000454C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795C4C601D921A4F002ECD49 /* XNBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNBaseNavController.h; sourceTree = "<group>"; };
+		795C4C611D921A4F002ECD49 /* XNBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNBaseNavController.m; sourceTree = "<group>"; };
+		795C4C631D921A6D002ECD49 /* XNMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMainTabBarController.h; sourceTree = "<group>"; };
+		795C4C641D921A6D002ECD49 /* XNMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMainTabBarController.m; sourceTree = "<group>"; };
+		795C4C661D921AF5002ECD49 /* XNCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNCategoryController.h; sourceTree = "<group>"; };
+		795C4C671D921AF5002ECD49 /* XNCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNCategoryController.m; sourceTree = "<group>"; };
+		795C4C6C1D921B23002ECD49 /* XNMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMineController.h; sourceTree = "<group>"; };
+		795C4C6D1D921B23002ECD49 /* XNMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMineController.m; sourceTree = "<group>"; };
+		795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HsuMall-Prefix.pch"; path = "../../../HsuMall-Prefix.pch"; sourceTree = "<group>"; };
+		795C4C801D921F92002ECD49 /* XNGoodsCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNGoodsCarController.h; sourceTree = "<group>"; };
+		795C4C811D921F92002ECD49 /* XNGoodsCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNGoodsCarController.m; sourceTree = "<group>"; };
+		795C4C851D921FC2002ECD49 /* XNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHomeViewController.h; sourceTree = "<group>"; };
+		795C4C861D921FC2002ECD49 /* XNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHomeViewController.m; sourceTree = "<group>"; };
+		795C4C8C1D9220BE002ECD49 /* XNCampaignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNCampaignController.h; sourceTree = "<group>"; };
+		795C4C8D1D9220BE002ECD49 /* XNCampaignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNCampaignController.m; sourceTree = "<group>"; };
 		A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,14 +97,12 @@
 		790EC0C91D910CE000454C0E /* HsuMall */ = {
 			isa = PBXGroup;
 			children = (
-				790EC0CD1D910CE000454C0E /* AppDelegate.h */,
-				790EC0CE1D910CE000454C0E /* AppDelegate.m */,
-				790EC0D01D910CE000454C0E /* ViewController.h */,
-				790EC0D11D910CE000454C0E /* ViewController.m */,
-				790EC0D31D910CE000454C0E /* Main.storyboard */,
-				790EC0D61D910CE000454C0E /* Assets.xcassets */,
-				790EC0D81D910CE000454C0E /* LaunchScreen.storyboard */,
-				790EC0DB1D910CE000454C0E /* Info.plist */,
+				795C4C571D921945002ECD49 /* Main */,
+				795C4C771D921F73002ECD49 /* Home(首页) */,
+				795C4C881D922079002ECD49 /* Campaign(大作战) */,
+				795C4C7E1D921F92002ECD49 /* ShopCar(购物车) */,
+				795C4C4F1D921945002ECD49 /* Category(分类) */,
+				795C4C5B1D921945002ECD49 /* Profile(会员中心) */,
 				790EC0CA1D910CE000454C0E /* Supporting Files */,
 			);
 			path = HsuMall;
@@ -98,9 +111,219 @@
 		790EC0CA1D910CE000454C0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				790EC0D61D910CE000454C0E /* Assets.xcassets */,
+				790EC0DB1D910CE000454C0E /* Info.plist */,
 				790EC0CB1D910CE000454C0E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		795C4C4F1D921945002ECD49 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C501D921945002ECD49 /* Controller */,
+				795C4C511D921945002ECD49 /* Model */,
+				795C4C521D921945002ECD49 /* View */,
+			);
+			name = "Category(分类)";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		795C4C501D921945002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C661D921AF5002ECD49 /* XNCategoryController.h */,
+				795C4C671D921AF5002ECD49 /* XNCategoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C511D921945002ECD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795C4C521D921945002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		795C4C571D921945002ECD49 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C5F1D92195F002ECD49 /* Other */,
+				795C4C581D921945002ECD49 /* Controller */,
+				795C4C5A1D921945002ECD49 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		795C4C581D921945002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C601D921A4F002ECD49 /* XNBaseNavController.h */,
+				795C4C611D921A4F002ECD49 /* XNBaseNavController.m */,
+				795C4C631D921A6D002ECD49 /* XNMainTabBarController.h */,
+				795C4C641D921A6D002ECD49 /* XNMainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C5A1D921945002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		795C4C5B1D921945002ECD49 /* Profile(会员中心) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C5C1D921945002ECD49 /* Controller */,
+				795C4C5D1D921945002ECD49 /* Model */,
+				795C4C5E1D921945002ECD49 /* View */,
+			);
+			name = "Profile(会员中心)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		795C4C5C1D921945002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C6C1D921B23002ECD49 /* XNMineController.h */,
+				795C4C6D1D921B23002ECD49 /* XNMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C5D1D921945002ECD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795C4C5E1D921945002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		795C4C5F1D92195F002ECD49 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */,
+				790EC0CD1D910CE000454C0E /* AppDelegate.h */,
+				790EC0CE1D910CE000454C0E /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		795C4C771D921F73002ECD49 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C781D921F73002ECD49 /* Controller */,
+				795C4C7B1D921F73002ECD49 /* Model */,
+				795C4C7C1D921F73002ECD49 /* View */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		795C4C781D921F73002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C851D921FC2002ECD49 /* XNHomeViewController.h */,
+				795C4C861D921FC2002ECD49 /* XNHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C7B1D921F73002ECD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795C4C7C1D921F73002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		795C4C7E1D921F92002ECD49 /* ShopCar(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C7F1D921F92002ECD49 /* Controller */,
+				795C4C821D921F92002ECD49 /* Model */,
+				795C4C831D921F92002ECD49 /* View */,
+			);
+			name = "ShopCar(购物车)";
+			path = ShopCar;
+			sourceTree = "<group>";
+		};
+		795C4C7F1D921F92002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C801D921F92002ECD49 /* XNGoodsCarController.h */,
+				795C4C811D921F92002ECD49 /* XNGoodsCarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C821D921F92002ECD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795C4C831D921F92002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		795C4C881D922079002ECD49 /* Campaign(大作战) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C891D922079002ECD49 /* Controller */,
+				795C4C8A1D922079002ECD49 /* Model */,
+				795C4C8B1D922079002ECD49 /* View */,
+			);
+			name = "Campaign(大作战)";
+			path = Campaign;
+			sourceTree = "<group>";
+		};
+		795C4C891D922079002ECD49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C8C1D9220BE002ECD49 /* XNCampaignController.h */,
+				795C4C8D1D9220BE002ECD49 /* XNCampaignController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795C4C8A1D922079002ECD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795C4C8B1D922079002ECD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +355,7 @@
 		790EC0BF1D910CE000454C0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XN;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = xuning;
 				TargetAttributes = {
@@ -165,9 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790EC0DA1D910CE000454C0E /* LaunchScreen.storyboard in Resources */,
 				790EC0D71D910CE000454C0E /* Assets.xcassets in Resources */,
-				790EC0D51D910CE000454C0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,32 +448,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790EC0D21D910CE000454C0E /* ViewController.m in Sources */,
+				795C4C621D921A4F002ECD49 /* XNBaseNavController.m in Sources */,
+				795C4C6E1D921B23002ECD49 /* XNMineController.m in Sources */,
 				790EC0CF1D910CE000454C0E /* AppDelegate.m in Sources */,
+				795C4C651D921A6D002ECD49 /* XNMainTabBarController.m in Sources */,
+				795C4C8E1D9220BE002ECD49 /* XNCampaignController.m in Sources */,
+				795C4C841D921F92002ECD49 /* XNGoodsCarController.m in Sources */,
+				795C4C681D921AF5002ECD49 /* XNCategoryController.m in Sources */,
 				790EC0CC1D910CE000454C0E /* main.m in Sources */,
+				795C4C871D921FC2002ECD49 /* XNHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		790EC0D31D910CE000454C0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				790EC0D41D910CE000454C0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		790EC0D81D910CE000454C0E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				790EC0D91D910CE000454C0E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		790EC0DC1D910CE000454C0E /* Debug */ = {
@@ -272,6 +481,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -319,6 +529,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -347,8 +558,12 @@
 			baseConfigurationReference = A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J7H6SN66AX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HsuMall-Prefix.pch";
 				INFOPLIST_FILE = HsuMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsuios.HsuMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,8 +575,12 @@
 			baseConfigurationReference = A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J7H6SN66AX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HsuMall-Prefix.pch";
 				INFOPLIST_FILE = HsuMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsuios.HsuMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";

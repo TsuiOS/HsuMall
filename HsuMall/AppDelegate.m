@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XNMainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,11 +17,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[XNMainTabBarController alloc]init];
+    
+    [self.window makeKeyAndVisible];
+    
+    [self setNavigationStyle];
+    [self setStatusBarStyle:application];
+    
     return YES;
 }
 
-
+// 统一设置NavigationStyle
+- (void)setNavigationStyle {
+    //获取设置外观对象
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    
+    //设置导航栏颜色
+    [navBar setBarTintColor:DEFAULT_NAVBAR_COLOR];
+    
+    //设置导航栏文字为白色
+    //富文本
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc]init];
+    dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    dict[NSFontAttributeName] = [UIFont systemFontOfSize:17];
+    
+    [navBar setTitleTextAttributes:dict];
+    
+    [navBar setTintColor:[UIColor whiteColor]];
+    
+}
+//统一设置状态栏外观
+- (void)setStatusBarStyle:(UIApplication *)application {
+    application.statusBarHidden = NO;
+    
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
