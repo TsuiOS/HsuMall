@@ -10,6 +10,7 @@ pod 'SVProgressHUD'
 pod 'Masonry'
 pod 'MJRefresh'
 pod 'MJExtension'
+pod 'SDCycleScrollView'
   # Pods for HsuMall
 
 end
