@@ -13,9 +13,11 @@
 		790EC0D51D910CE000454C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D31D910CE000454C0E /* Main.storyboard */; };
 		790EC0D71D910CE000454C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D61D910CE000454C0E /* Assets.xcassets */; };
 		790EC0DA1D910CE000454C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D81D910CE000454C0E /* LaunchScreen.storyboard */; };
+		C7739A5DBE16465FF5862158 /* libPods-HsuMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HsuMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790EC0C71D910CE000454C0E /* HsuMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HsuMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		790EC0CB1D910CE000454C0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		790EC0CD1D910CE000454C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		790EC0D61D910CE000454C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790EC0D91D910CE000454C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790EC0DB1D910CE000454C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.debug.xcconfig"; sourceTree = "<group>"; };
+		A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7739A5DBE16465FF5862158 /* libPods-HsuMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E501A8D1CA56CC9D01100C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */,
+				A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		747D401190E50421015A2BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		790EC0BE1D910CE000454C0E = {
 			isa = PBXGroup;
 			children = (
 				790EC0C91D910CE000454C0E /* HsuMall */,
 				790EC0C81D910CE000454C0E /* Products */,
+				5E501A8D1CA56CC9D01100C1 /* Pods */,
+				747D401190E50421015A2BA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 790EC0DE1D910CE000454C0E /* Build configuration list for PBXNativeTarget "HsuMall" */;
 			buildPhases = (
+				F5B3660CB94E6C77017E9AB6 /* [CP] Check Pods Manifest.lock */,
 				790EC0C31D910CE000454C0E /* Sources */,
 				790EC0C41D910CE000454C0E /* Frameworks */,
 				790EC0C51D910CE000454C0E /* Resources */,
+				B2617F613D7C6C23F695D26F /* [CP] Embed Pods Frameworks */,
+				879F083391DA6197B7DD5675 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		879F083391DA6197B7DD5675 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2617F613D7C6C23F695D26F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B3660CB94E6C77017E9AB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		790EC0C31D910CE000454C0E /* Sources */ = {
@@ -269,6 +344,7 @@
 		};
 		790EC0DF1D910CE000454C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7H6SN66AX;
@@ -281,6 +357,7 @@
 		};
 		790EC0E01D910CE000454C0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7H6SN66AX;
@@ -310,6 +387,7 @@
 				790EC0E01D910CE000454C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
