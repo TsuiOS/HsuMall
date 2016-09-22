@@ -7,8 +7,11 @@
 //
 
 #import "XNHomeViewController.h"
+#import "XNHomeModel.h"
+#import <MJExtension.h>
 
 @interface XNHomeViewController ()
+//@property (nonatomic, strong) NSArray *model;
 
 @end
 
@@ -16,7 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [[XNNetworkTools sharedTools]loadHomePageFinished:^(NSDictionary *result, NSError *error) {
+        
+        if (error) {
+            return;
+        }
+        XNHomeModel *model = [XNHomeModel mj_objectWithKeyValues:result];
+        XNHomeData *data = model.data;
+        XNBanner *banner = data.banner[0];
+        NSLog(@"%@",banner.name);
+        
+    
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

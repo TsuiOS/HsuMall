@@ -10,6 +10,7 @@
 		790EC0CC1D910CE000454C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EC0CB1D910CE000454C0E /* main.m */; };
 		790EC0CF1D910CE000454C0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EC0CE1D910CE000454C0E /* AppDelegate.m */; };
 		790EC0D71D910CE000454C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790EC0D61D910CE000454C0E /* Assets.xcassets */; };
+		7935D1121D9286AD00575A02 /* XNHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7935D1111D9286AD00575A02 /* XNHomeModel.m */; };
 		795C4C621D921A4F002ECD49 /* XNBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C611D921A4F002ECD49 /* XNBaseNavController.m */; };
 		795C4C651D921A6D002ECD49 /* XNMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C641D921A6D002ECD49 /* XNMainTabBarController.m */; };
 		795C4C681D921AF5002ECD49 /* XNCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C671D921AF5002ECD49 /* XNCategoryController.m */; };
@@ -17,6 +18,7 @@
 		795C4C841D921F92002ECD49 /* XNGoodsCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C811D921F92002ECD49 /* XNGoodsCarController.m */; };
 		795C4C871D921FC2002ECD49 /* XNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C861D921FC2002ECD49 /* XNHomeViewController.m */; };
 		795C4C8E1D9220BE002ECD49 /* XNCampaignController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795C4C8D1D9220BE002ECD49 /* XNCampaignController.m */; };
+		79C64CF71D927E4300244A7E /* XNNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C64CF61D927E4300244A7E /* XNNetworkTools.m */; };
 		C7739A5DBE16465FF5862158 /* libPods-HsuMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3335EB62D89CF492AF0CD94B /* libPods-HsuMall.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		790EC0CE1D910CE000454C0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		790EC0D61D910CE000454C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790EC0DB1D910CE000454C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7935D1101D9286AD00575A02 /* XNHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHomeModel.h; sourceTree = "<group>"; };
+		7935D1111D9286AD00575A02 /* XNHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHomeModel.m; sourceTree = "<group>"; };
 		795C4C601D921A4F002ECD49 /* XNBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNBaseNavController.h; sourceTree = "<group>"; };
 		795C4C611D921A4F002ECD49 /* XNBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNBaseNavController.m; sourceTree = "<group>"; };
 		795C4C631D921A6D002ECD49 /* XNMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMainTabBarController.h; sourceTree = "<group>"; };
@@ -36,13 +40,15 @@
 		795C4C671D921AF5002ECD49 /* XNCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNCategoryController.m; sourceTree = "<group>"; };
 		795C4C6C1D921B23002ECD49 /* XNMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMineController.h; sourceTree = "<group>"; };
 		795C4C6D1D921B23002ECD49 /* XNMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMineController.m; sourceTree = "<group>"; };
-		795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HsuMall-Prefix.pch"; path = "../../../HsuMall-Prefix.pch"; sourceTree = "<group>"; };
+		795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HsuMall-Prefix.pch"; path = "../../HsuMall-Prefix.pch"; sourceTree = "<group>"; };
 		795C4C801D921F92002ECD49 /* XNGoodsCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNGoodsCarController.h; sourceTree = "<group>"; };
 		795C4C811D921F92002ECD49 /* XNGoodsCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNGoodsCarController.m; sourceTree = "<group>"; };
 		795C4C851D921FC2002ECD49 /* XNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHomeViewController.h; sourceTree = "<group>"; };
 		795C4C861D921FC2002ECD49 /* XNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHomeViewController.m; sourceTree = "<group>"; };
 		795C4C8C1D9220BE002ECD49 /* XNCampaignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNCampaignController.h; sourceTree = "<group>"; };
 		795C4C8D1D9220BE002ECD49 /* XNCampaignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNCampaignController.m; sourceTree = "<group>"; };
+		79C64CF51D927E4300244A7E /* XNNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNNetworkTools.h; sourceTree = "<group>"; };
+		79C64CF61D927E4300244A7E /* XNNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNNetworkTools.m; sourceTree = "<group>"; };
 		A4E311CE2F144B0DD557DA01 /* Pods-HsuMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FF524157FC06EF275B7A7F /* Pods-HsuMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsuMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-HsuMall/Pods-HsuMall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +103,7 @@
 		790EC0C91D910CE000454C0E /* HsuMall */ = {
 			isa = PBXGroup;
 			children = (
+				79C64CF31D927DE700244A7E /* Common(通用) */,
 				795C4C571D921945002ECD49 /* Main */,
 				795C4C771D921F73002ECD49 /* Home(首页) */,
 				795C4C881D922079002ECD49 /* Campaign(大作战) */,
@@ -217,7 +224,6 @@
 		795C4C5F1D92195F002ECD49 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */,
 				790EC0CD1D910CE000454C0E /* AppDelegate.h */,
 				790EC0CE1D910CE000454C0E /* AppDelegate.m */,
 			);
@@ -247,6 +253,8 @@
 		795C4C7B1D921F73002ECD49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7935D1101D9286AD00575A02 /* XNHomeModel.h */,
+				7935D1111D9286AD00575A02 /* XNHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +332,25 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		79C64CF31D927DE700244A7E /* Common(通用) */ = {
+			isa = PBXGroup;
+			children = (
+				795C4C761D921D07002ECD49 /* HsuMall-Prefix.pch */,
+				79C64CF41D927DE700244A7E /* HTTP */,
+			);
+			name = "Common(通用)";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79C64CF41D927DE700244A7E /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				79C64CF51D927E4300244A7E /* XNNetworkTools.h */,
+				79C64CF61D927E4300244A7E /* XNNetworkTools.m */,
+			);
+			path = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,8 +479,10 @@
 				795C4C6E1D921B23002ECD49 /* XNMineController.m in Sources */,
 				790EC0CF1D910CE000454C0E /* AppDelegate.m in Sources */,
 				795C4C651D921A6D002ECD49 /* XNMainTabBarController.m in Sources */,
+				79C64CF71D927E4300244A7E /* XNNetworkTools.m in Sources */,
 				795C4C8E1D9220BE002ECD49 /* XNCampaignController.m in Sources */,
 				795C4C841D921F92002ECD49 /* XNGoodsCarController.m in Sources */,
+				7935D1121D9286AD00575A02 /* XNHomeModel.m in Sources */,
 				795C4C681D921AF5002ECD49 /* XNCategoryController.m in Sources */,
 				790EC0CC1D910CE000454C0E /* main.m in Sources */,
 				795C4C871D921FC2002ECD49 /* XNHomeViewController.m in Sources */,
